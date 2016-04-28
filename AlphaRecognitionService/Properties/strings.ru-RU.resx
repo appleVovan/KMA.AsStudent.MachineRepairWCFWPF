@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="String_CalculateSize" xml:space="preserve">
+    <value>Рассчет размера</value>
+    <comment>Calculate Size</comment>
+  </data>
+  <data name="String_CleanTemps" xml:space="preserve">
+    <value>Очистка Temps</value>
+    <comment>Clean Temps</comment>
+  </data>
+  <data name="String_Danger" xml:space="preserve">
+    <value>Опасно</value>
+    <comment>Danger</comment>
+  </data>
+  <data name="String_DocalphaStationError" xml:space="preserve">
+    <value>Ошибка на станции docAlpha.</value>
+    <comment>docAlpha Station Error.</comment>
+  </data>
+  <data name="String_DoesNotExists" xml:space="preserve">
+    <value> (не существует)</value>
+    <comment> (does not exists)</comment>
+  </data>
+  <data name="String_DoYouReallyLikeToUninstall" xml:space="preserve">
+    <value>Вы действительно хотите удалить {0}?</value>
+    <comment>Do you REALLY like to uninstall the {0}?</comment>
+  </data>
+  <data name="String_Error" xml:space="preserve">
+    <value>Ошибка</value>
+    <comment>Error</comment>
+  </data>
+  <data name="String_ErrorWhileOpeningHost" xml:space="preserve">
+    <value>Ошибка при открытии хоста</value>
+    <comment>Error while opening the host</comment>
+  </data>
+  <data name="String_ErrorWhileTryingToDisconnectFromServer" xml:space="preserve">
+    <value>Ошибка при попытке отключения от сервера</value>
+    <comment>Error while trying to disconnect from the server</comment>
+  </data>
+  <data name="String_ErrorWhileTryingToInitializeServerLog" xml:space="preserve">
+    <value>Ошибка при попытке инициализации серверного журнала: </value>
+    <comment>Error while trying to initialize server log: </comment>
+  </data>
+  <data name="String_ErrorWhileTryingToRetrieveServiceInfo" xml:space="preserve">
+    <value>Ошибка при попытке получения информации службы. Вероятно, служба не инсталлирована</value>
+    <comment>Error while trying to retrieve the service information. Probably service is not installed</comment>
+  </data>
+  <data name="String_ErrorWhileTryingToStopHostListener" xml:space="preserve">
+    <value>Ошибка при попытке остановить прослушивателя хоста</value>
+    <comment>Error while trying to stop the host listener</comment>
+  </data>
+  <data name="String_ErrorWhileTryingToStopRecognition" xml:space="preserve">
+    <value>Ошибка при попытке остановить распознавание</value>
+    <comment>Error while trying to stop the Recognition</comment>
+  </data>
+  <data name="String_NotImplemented" xml:space="preserve">
+    <value>Не реализовано</value>
+    <comment>Not Implemented</comment>
+  </data>
+  <data name="String_PauseCalculation" xml:space="preserve">
+    <value>Пауза подсчета</value>
+    <comment>Pause Calculation</comment>
+  </data>
+  <data name="String_PauseCleaning" xml:space="preserve">
+    <value>Пауза очистки</value>
+    <comment>Pause Cleaning</comment>
+  </data>
+  <data name="String_PleaseWait" xml:space="preserve">
+    <value>Пожалуйста, подождите</value>
+    <comment>Please Wait</comment>
+  </data>
+  <data name="String_Reason" xml:space="preserve">
+    <value>Причина: </value>
+    <comment>Reason: </comment>
+  </data>
+  <data name="String_RecognitionServiceStopped" xml:space="preserve">
+    <value>Служба распознавания остановлена</value>
+    <comment>Recognition Service Stopped</comment>
+  </data>
+  <data name="String_RecognitionStationConfigurationProgram" xml:space="preserve">
+    <value>Программа конфигурации станции распознавания</value>
+    <comment>Recognition station configuration program</comment>
+  </data>
+  <data name="String_RecognitionStationConfigurationProgramUn" xml:space="preserve">
+    <value>Программа конфигурации станции распознавания: необрабатываемое исключение</value>
+    <comment>Recognition station configuration program: Unhadled exception</comment>
+  </data>
+  <data name="String_ResumeSizeCalculation" xml:space="preserve">
+    <value>Итог расчета размера</value>
+    <comment>Resume Size Calculation</comment>
+  </data>
+  <data name="String_ResumeTempsCleaning" xml:space="preserve">
+    <value>Итог очистки Temps </value>
+    <comment>Resume Temps Cleaning</comment>
+  </data>
+  <data name="String_SeeLogsInFolder" xml:space="preserve">
+    <value>См. журналы в папке: </value>
+    <comment>See logs in folder:</comment>
+  </data>
+  <data name="String_ServiceAlreadyInstalledPressOk" xml:space="preserve">
+    <value>Служба {0} уже инсталлирована. Нажмите OK.</value>
+    <comment>Service {0} is already installed. Press OK.</comment>
+  </data>
+  <data name="String_ServiceFailedToStartReason" xml:space="preserve">
+    <value>Не удалось запустить службу. Причина: </value>
+    <comment>Service failed to start. Reason: </comment>
+  </data>
+  <data name="String_ServiceNotInstalled" xml:space="preserve">
+    <value>Служба не инсталлирована</value>
+    <comment>Service is not installed</comment>
+  </data>
+  <data name="String_ServiceStarted" xml:space="preserve">
+    <value>Служба запущена</value>
+    <comment>Service is Started</comment>
+  </data>
+  <data name="String_ServiceStatus" xml:space="preserve">
+    <value>Статус службы: </value>
+    <comment>Service Status: </comment>
+  </data>
+  <data name="String_ServiceStopped" xml:space="preserve">
+    <value>Служба остановлена</value>
+    <comment>Service is Stopped</comment>
+  </data>
+  <data name="String_StartService" xml:space="preserve">
+    <value>Запустить службу</value>
+    <comment>Start Service</comment>
+  </data>
+  <data name="String_Status" xml:space="preserve">
+    <value>Статус</value>
+    <comment>Status</comment>
+  </data>
+  <data name="String_StopService" xml:space="preserve">
+    <value>Остановить службу</value>
+    <comment>Stop Service</comment>
+  </data>
+  <data name="String_SuccessfullyInstalled" xml:space="preserve">
+    <value>Успешно инсталлировано {0}</value>
+    <comment>Successfully installed the {0}</comment>
+  </data>
+  <data name="String_SuccessfullyUninstalled" xml:space="preserve">
+    <value>Успешно деинсталлировано {0}</value>
+    <comment>Successfully uninstalled the {0}</comment>
+  </data>
+  <data name="String_TempsCleanedMb" xml:space="preserve">
+    <value>Очищено Temps: {0} Mb</value>
+    <comment>Temps Cleaned: {0} Mb</comment>
+  </data>
+  <data name="String_TempsCleanedMbUnfinished" xml:space="preserve">
+    <value>Очищено Temps: {0} Mb (незавершено)</value>
+    <comment>Temps Cleaned: {0} Mb (unfinished)</comment>
+  </data>
+  <data name="String_TempsSizeMb" xml:space="preserve">
+    <value>Размер Temps: {0} Mb</value>
+    <comment>Temps Size: {0} Mb</comment>
+  </data>
+  <data name="String_TempsSizeMbUnfinished" xml:space="preserve">
+    <value>Размер Temps: {0} Mb (незавершено)</value>
+    <comment>Temps Size: {0} Mb (unfinished)</comment>
+  </data>
+  <data name="String_TryingToStartService" xml:space="preserve">
+    <value>Попытка запустить службу ...</value>
+    <comment>Trying to start service... </comment>
+  </data>
+</root>
